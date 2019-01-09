@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>CodeGym</title>
+    </head>
+    <body>
+        <h1>Hello world</h1>
+
+        <button type = "button" onclick = "Show();"> Alert </button>
+        <h> -Cach 1: cach hien thi bang Alert ! </h>
+        <div  id="messDiv"></div>
+        <button type = "button" onclick = "MessDiv();"> InnerHTML </button>
+        <h> -Cach 2 : cach hien thi bang innerHTML !</h>
+        <h1> - cach 3 : cach hien thi bang viec su dung ham document.write() ! </h1>
+        <button type="button" onclick="HamDocu();">Ham write</button>
+        <script>
+            function Show() {
+                alert('day la alert');
+
+            }
+            function MessDiv() {
+                document.getElementById("messDiv").innerHTML = "Dat la su dung innerHTML";
+
+            }
+            function HamDocu() {
+                document.write("Day la su dung ham document.write() ");
+            }
+
+        </script>
+
+
+
+    </body>
+
+
+</html>
